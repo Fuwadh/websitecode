@@ -1,0 +1,12 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition:width 1s,height 1s,transform 1s;
+    transition-timing-function:linear;
+}
+.box:hover{
+    width: 200px;
+    height: 200px;
+    transform: rotate(480deg);
+}

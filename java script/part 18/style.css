@@ -1,0 +1,13 @@
+*{
+  margin:0;
+  padding: 0;
+}
+h1{
+  color: #c44f24 ;
+  border: 5px dotted  #c4c224 ;
+  border-radius: 40px;
+  text-align: center;
+  margin: 50px 80px;
+  padding: 20px;
+  position: absolute;
+}

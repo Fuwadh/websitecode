@@ -1,0 +1,25 @@
+h2{
+    font-size: 90px;
+    text-align: center;
+    text-shadow: 2px 2px 5px purple;
+}
+.fuwad{
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    border: 1px solid #d4d4d4;
+   }
+.fuwad img{
+    width: 100%;
+}
+.container{
+    padding: 10px;
+}
+.fuwad h3{
+    font-size: 20px;
+    text-transform: capitalize;
+    margin: 0;
+}
+.fuwad:hover{
+     box-shadow: 10px 10px 10px rgba(0,0,0,1);
+}

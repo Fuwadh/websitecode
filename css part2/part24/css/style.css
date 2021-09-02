@@ -1,0 +1,6 @@
+h2:last-child{
+    color: red;
+}
+h2:nth-child(2){
+    color: aqua;
+}

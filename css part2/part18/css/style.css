@@ -1,0 +1,10 @@
+.m1{
+    border: 3px solid #000;
+    width:400px;
+    margin: auto
+}
+.m2{
+    border: 3px solid green;
+    max-width: 400px;
+    margin: auto;
+}

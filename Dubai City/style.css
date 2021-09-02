@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.banner-bg{
+    width: 100%;
+    height: 634px;
+    margin: 0px auto;
+    background-image: url(Asgard/aeroplan.png),url(Asgard/parashoot.png),url(Asgard/cloud.png),url(Asgard/home.png);
+    background-position: 120% 0px, 0px 0px, 0px 0px,0px 0px;
+    background-repeat: no-repeat, repeat,repeat,repeat;
+    animation: bg-animation linear 50s infinite;
+}
+@keyframes bg-animation{
+    from{
+        background-position: 120% 0px, 0px 0px,0px 0px, 0px 0px;
+    }
+    to{
+        background-position: -20% 0px, 3000px 0px,1500px 0px,1500px 0px;
+    }
+}

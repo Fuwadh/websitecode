@@ -1,0 +1,31 @@
+.fuwad{
+    border-width:10px;
+    border-style: solid dotted dashed ridge;
+    border-color:#ff0000 #ffff00 #3333 #000;
+    border-radius:25px;
+}
+.hasan{
+    border-width:10px;
+    border-style: solid;
+    border-color: #ff0000 #3333 #000 #0f0;
+    border-radius: 50px;
+    
+}
+.one{
+    width: 600px;
+    height: 350px;
+    background: green;
+    margin: 2px;
+    padding: 0px;
+    overflow: hidden;
+    
+    
+}
+.two{
+    width: 200px;
+    height: 200px;
+    background: red;
+    margin: 90px 190px;
+    border-radius: 50%;
+
+}

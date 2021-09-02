@@ -1,0 +1,6 @@
+h2::before{
+    content:url(../asgard/baby.jpg);
+}
+h2::after{
+    content:url(../asgard/baby.jpg);
+}

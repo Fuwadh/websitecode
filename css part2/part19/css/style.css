@@ -1,0 +1,35 @@
+.green-box{
+    width: 550px;
+    height: 350px;
+    background: green;
+    position: relative;
+}
+.red-box{
+    width: 180px;
+    height: 180px;
+    background: red;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    top: 0px;
+    margin: auto;
+    border-radius: 50%;
+}
+.m{
+    border: 3px solid red;
+    padding: 5px;
+    margin-top: 15px;
+    background: red;
+    position: sticky;
+    top: 0;
+        
+}
+p{
+    position: fixed;
+    bottom: 0px;
+    right:0px;
+    width: 300px;
+    border: 2px solid red;
+        
+}

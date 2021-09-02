@@ -1,0 +1,13 @@
+.bg{
+    width: 400px;
+    height: 350px;
+    background:url('../asgard/baby.jpg') no-repeat center/cover;
+    overflow: hidden;
+}
+.box p{
+    text-align: center;
+    background:#fff;
+    padding: 30px;
+    opacity: 0.6;
+    margin-top: 180px;
+}

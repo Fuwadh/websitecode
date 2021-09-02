@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/*Animated city */
+.road{
+    background: url(../vehicle/city.jpg) bottom no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+    }
+
+.bottom-grass{
+    background-image:url(../vehicle/bottom-grass.jpg) bottom no-repeat;
+    background-size: 1000%;
+    width: 100%;
+    height: 66px;
+    position: relative;
+    top: -30px;
+    z-index: auto;
+    }
+/*blue truck*/
+.blue_truck{
+    background: url(../vehicle/blue-truck.png)
+        no-repeat center center;
+    height: 93px;
+    width: 235px;
+    position: relative;
+    top: 66%;
+    animation-name: blue_truck;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blue_truck{
+    0%{
+        left: -100%;
+    }
+    50%{
+        left: 0%
+    }
+    100%{
+        left: 100%
+    }
+}
+.blue_truck.bluc_truck_rim_one,
+.blue_truck.bluc_truck_rim_two{
+    background: url(../vehicle/truck-rim.png)no-repeat center center ;
+    background-size: cover;
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    top: 70%;
+    animation-name: blue_truck_rim;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+}
+.blue_truck .blue_truck_rim_one{
+   
+    left: 23%;
+   
+        
+}
+@keyframes blue_truck_rim{
+    0%
+    {
+     transform: rotate(0deg);
+    }
+    50%
+    {
+        transform: rotate(180deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
